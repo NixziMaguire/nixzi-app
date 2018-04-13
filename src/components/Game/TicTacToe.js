@@ -104,6 +104,11 @@ function calculateWinner(squares) {
 }
 
 class TicTacToe extends React.Component {
+  constructor(props){
+    super(props);
+    document.title = "Play TicTacToe"
+  }
+  
   render() {
     return (
       <div className="tictactoe">
