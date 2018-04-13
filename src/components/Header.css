@@ -1,0 +1,34 @@
+table {
+    border-collapse: collapse;
+    background: #101010;
+    border: 1px solid #ffffff; 
+     
+} 
+
+th,td {
+    border: 1px solid black;    
+}
+
+a {
+    color: #00FFFF;
+}
+
+table.a {
+    table-layout: auto;
+    width: 180px;  
+}
+
+table.b {
+    table-layout: fixed;
+    width: 180px;    
+}
+
+table.c {
+    table-layout: auto;
+    width: 100%;    
+}
+
+table.d {
+    table-layout: fixed;
+    width: 100%;    
+}

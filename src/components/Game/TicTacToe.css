@@ -1,0 +1,58 @@
+body {
+    font: 14px "Century Gothic", Futura, sans-serif;
+    margin: 20px;
+  }
+  
+  ol, ul {
+    padding-left: 30px;
+  }
+  
+  .tictactoe-board-row:after {
+    clear: both;
+    content: "";
+    display: table;
+  }
+  
+  .tictactoe-status {
+    margin-bottom: 10px;
+    color: aqua;
+    text-align: center;
+  }
+  
+  .tictactoe-square {
+    background: #333333;
+    border: 1px solid aqua;
+    float: left;
+    font-size: 54px;
+    font-weight: bold;
+    line-height: 34px;
+    height: 100px;
+    margin-right: -1px;
+    margin-top: -1px;
+    padding: 0;
+    text-align: center;
+    width: 100px;
+    color: aqua;
+  }
+  
+  .tictactoe-square:focus {
+    outline: none;
+  }
+  
+  .kbd-navigation .tictactoe-square:focus {
+    background: #ddd;
+  }
+  
+  .tictactoe {
+    display: flex;
+    flex-direction: row;
+    position: fixed;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, 0%);
+  }
+  
+  .tictactoe-info {
+    margin-left: 0px;
+  }
+  
