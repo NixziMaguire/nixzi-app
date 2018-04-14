@@ -11,11 +11,6 @@ const Header = () => (
                 <th><Link to='/'>Home</Link></th>
                 <th><Link to='/joanna'>Joanna</Link></th>
                 <th><Link to='/tictactoe'>TicTacToe</Link></th>
-                <th><Link to='/1'>1</Link></th>
-                <th><Link to='/2'>2</Link></th>
-                <th><Link to='/3'>3</Link></th>
-                <th><Link to='/4'>4</Link></th>
-                <th><Link to='/5'>5</Link></th>
             </tr>
         </tbody>
     </table>
