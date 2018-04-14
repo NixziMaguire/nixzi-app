@@ -1,7 +1,7 @@
 import React from 'react'
 import { Switch, Route } from 'react-router-dom'
 import Home from './Home'
-//import Joanna from './People/Joanna'
+import Joanna from './People/Joanna'
 import TicTacToe from './Game/TicTacToe'
 
 // The Main component renders one of the three provided
@@ -13,7 +13,7 @@ const Main = () => (
   <main>
     <Switch>
       <Route exact path='/' component={Home}/>
-      {/* <Route path='/joanna' component={Joanna}/> */}
+      <Route path='/joanna' component={Joanna}/>
       <Route path='/tictactoe' component={TicTacToe}/>
     </Switch>
   </main>
