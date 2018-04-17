@@ -13,13 +13,13 @@ class Joanna extends Component {
     render () {
         var imageNumbers = [1,2,3,4,5];
         var imagesHtml = imageNumbers.map(function(number){
-            return <img src={images['Joanna ('+ number +').jpg']} />;
+            return <img src={images['Joanna ('+ number +').jpg']} alt={"Hey"} />;
           })
 
         return (
             <div>
                 <h1>Joanna is the best girlfriend ever!!!</h1>
-                {imagesHtml}
+                <iframe title="Mad Murloc Discord" src="https://discordapp.com/widget?id=332863577121619968&theme=dark" width="350" height="500" allowtransparency="true" frameborder="0"></iframe>
             </div>
         );
     }
