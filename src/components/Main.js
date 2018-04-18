@@ -1,8 +1,9 @@
-import React from 'react'
-import { Switch, Route } from 'react-router-dom'
-import Home from './Home'
-import Joanna from './People/Joanna'
-import TicTacToe from './Game/TicTacToe'
+import React from 'react';
+import { Switch, Route } from 'react-router-dom';
+import Home from './Home';
+import Joanna from './People/Joanna';
+import TicTacToe from './Game/TicTacToe';
+import Discord from './DiscordWidgets';
 
 // The Main component renders one of the three provided
 // Routes (provided that one matches). Both the /roster
@@ -15,6 +16,7 @@ const Main = () => (
       <Route exact path='/' component={Home}/>
       <Route path='/joanna' component={Joanna}/>
       <Route path='/tictactoe' component={TicTacToe}/>
+      <Route path='/discord' component={Discord}/>
     </Switch>
   </main>
 )

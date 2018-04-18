@@ -11,6 +11,7 @@ const Header = () => (
                 <th><Link to='/'>Home</Link></th>
                 <th><Link to='/joanna'>Joanna</Link></th>
                 <th><Link to='/tictactoe'>TicTacToe</Link></th>
+                <th><Link to='/discord'>Discord Widgets</Link></th>
             </tr>
         </tbody>
     </table>

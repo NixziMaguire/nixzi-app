@@ -3,7 +3,7 @@ import './People.css';
 
 function importAll(r) {
     let images = {};
-    r.keys().map((item, index) => { images[item.replace('./', '')] = r(item); });
+    r.keys().map((item, index) => { return images[item.replace('./', '')] = r(item); });
     return images;
   }
   
@@ -19,7 +19,7 @@ class Joanna extends Component {
         return (
             <div>
                 <h1>Joanna is the best girlfriend ever!!!</h1>
-                <iframe title="Mad Murloc Discord!" src="https://discordapp.com/widget?id=332863577121619968&theme=dark" width="350" height="500" allowtransparency="true" frameborder="0"></iframe>
+                {imagesHtml}
             </div>
         );
     }

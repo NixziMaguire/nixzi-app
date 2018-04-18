@@ -100,7 +100,7 @@ function calculateWinner(squares) {
   if (squares.some(function(e){ return e === null})){
     return null;
   }
-  return "It\'s a draw!";
+  return "It's a draw!";
 }
 
 class TicTacToe extends React.Component {
